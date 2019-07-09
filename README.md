@@ -44,9 +44,9 @@ The collection exists out of 33 tests of which:
 <img src="Images/Collection%20runner.PNG" >
 
 ## Getting started
-The project was created in Postman and exported as a .json file. Download the following folder 'Project Postman' to your local environment. The folder exists out of 2 .json files:
-* GitLab Issues API.postman_collection_final.json
-* GitLab.postman_environment_final.json
+* Download the folder 'Project Postman' to your local environment. The folder exists out of 2 .json files:
+  - GitLab Issues API.postman_collection_final.json
+  - GitLab.postman_environment_final.json
 
 For the execution of the tests no additional plugins or libraries are needed.
 
