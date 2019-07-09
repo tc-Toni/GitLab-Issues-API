@@ -36,13 +36,11 @@ The following is needed to run the tests via the command line:
 * Node.js
 * Newman
 
-## Installing Postman App
+## Postman App
+### Installing the Postman App
 * Download the Postman App from https://www.getpostman.com/downloads/
 
-## Installing Node.js and Newman
-* Follow the instructions in this tutorial to install node.js and Newman: https://www.youtube.com/watch?v=f2yMmOGZU7M
-
-## Running tests via the Postman App
+### Configuration of the Postman App
 * Open the application
 * Sign in with your account. In case you don't have an account yet, click on 'Create account'
 * Click on the 'Import' button in the header of the app.
@@ -57,6 +55,10 @@ The following is needed to run the tests via the command line:
 
 ### Running tests manually
 You can also run a test manually bij openening the request in the collection and click on 'Send'. Make sure to execute the test in the order as they are shown in the folder to make sure all tests will pass (for example, we need to create an issue first before we can delete it).
+
+## Command Line
+### Installing Node.js and Newman
+* Follow the instructions in this tutorial to install node.js and Newman: https://www.youtube.com/watch?v=f2yMmOGZU7M
 
 ### Running tests via command line
 
