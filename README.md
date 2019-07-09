@@ -70,9 +70,11 @@ The following is needed to run the tests via the command line:
 
 ### Running all tests via 'Runner'
 * Click on the 'Runner' button in the header of the app. The 'Collection Runner' will now be opened in a new window.
-* Under 'All collections' select the collection 'GitLab Issues API'.
-* Select 'GitLab' as 'Environment'
-* Click on 'Run GitLab Issues ...'. Now all test will be executed and the results are shown in a report.
+* Under 'All collections' select the collection 'GitLab Issues API' (1).
+* Select 'GitLab' as 'Environment' (2)
+* Click on 'Run GitLab Issues ...' (3). Now all test will be executed and the results are shown in a report.
+
+<img src="Images/Collection%20Runner%20Settings.PNG" >
 
 ### Running tests manually
 You can also run a test manually bij openening the request in the collection and click on 'Send'. Make sure to execute the test in the order as they are shown in the folder to make sure all tests will pass (for example, we need to create an issue first before we can delete it).
