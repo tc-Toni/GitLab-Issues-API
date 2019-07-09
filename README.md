@@ -1,5 +1,5 @@
 # GitLab Issues API
-'Postman project' is created as an automated test of the GitLab Issue APIs. The project, as depicted in the screenshot below, exist out of 1 main folder:
+'Postman project' is created as an automated test of the GitLab Issue API. The project, as depicted in the screenshot below, exist out of 1 main folder:
 
 * GitLab Issues API
 
