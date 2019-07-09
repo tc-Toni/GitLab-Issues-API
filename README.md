@@ -77,7 +77,9 @@ The following is needed to run the tests via the command line:
 <img src="Images/Collection%20Runner%20Settings.PNG" >
 
 ### Running tests manually
-You can also run a test manually bij openening the request in the collection and click on 'Send'. Make sure to execute the test in the order as they are shown in the folder to make sure all tests will pass (for example, we need to create an issue first before we can delete it).
+You can also run a test manually bij openening the request in the collection and click on 'Send'. 
+* Make sure to select the envoronment 'GitLab' on the top right of the screen.
+* Execute the test in the order as they are shown in the folder to make sure all tests will pass (for example, we need to create an issue first before we can delete it).
 
 ## Command Line
 ### Installing Node.js and Newman
