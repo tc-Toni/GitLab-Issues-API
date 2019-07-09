@@ -13,9 +13,11 @@ All the requests in these collections make use of the end points that are availa
 For more info go to https://docs.gitlab.com/ee/api/issues.html
 
 ## GitLab Group and Project
-* To be able to make request on issues the issues must be part of a project the user is authorized to. Therefore the following is created in GitLab:
+* To be able to make request on issues the issues must be part of a project. Therefore the following is created in GitLab:
   - Group: Big Bank
   - Project: Banking App
+
+It is a public project so by searching on the name you can open the project board and see the issues that are already added to the board.
 
 ## Important notes
 
