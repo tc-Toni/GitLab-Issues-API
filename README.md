@@ -12,6 +12,8 @@ All the requests in these collections make use of the end points that are availa
 
 For more info go to https://docs.gitlab.com/ee/api/issues.html
 
+<img src="Images/Screenshot%20Postman.PNG" >
+
 ## GitLab Group and Project
 * To be able to make request on issues in GitLab the issues must be part of a project. Therefore the following is created in GitLab:
   - Group: Big Bank
@@ -38,6 +40,8 @@ The collection exists out of 33 tests of which:
     - Expected response: 400 Bad Request.
     - Actual response: 200 OK. 
     - When we check the value of due_date in the response it is 'null'
+
+<img src="Images/Collection%20runner.PNG" >
 
 ## Getting started
 The project was created in Postman and exported as a .json file. Download the project to your local environment. 
