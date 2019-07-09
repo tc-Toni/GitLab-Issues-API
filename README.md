@@ -1,5 +1,5 @@
 # GitLab Issues API
-This project is created as an automated test of the GitLab Issue APIs. The project exist out of 1 main folder:
+'Postman project' is created as an automated test of the GitLab Issue APIs. The project, as depicted in the screenshot below, exist out of 1 main folder:
 
 * GitLab Issues API
 
@@ -44,7 +44,11 @@ The collection exists out of 33 tests of which:
 <img src="Images/Collection%20runner.PNG" >
 
 ## Getting started
-The project was created in Postman and exported as a .json file. Download the file "GitLab Issues API.postman_collection_final.json" to your local environment. For the execution of the tests no additional plugins or libraries are needed.
+The project was created in Postman and exported as a .json file. Download the following folder 'Project Postman' to your local environment. The folder exists out of 2 .json files:
+* GitLab Issues API.postman_collection_final.json
+* GitLab.postman_environment_final.json
+
+For the execution of the tests no additional plugins or libraries are needed.
 
 ## Prerequisites
 The following is needed to run the tests via Postman App:
@@ -65,7 +69,7 @@ The following is needed to run the tests via the command line:
 * Sign in with your account. In case you don't have an account yet, click on 'Create account'
 * Click on the 'Import' button in the header of the app.
 * Open the tab 'Import Folder'
-* Click on 'Choose folder' and select the project folder from your local environment.
+* Click on 'Choose folder' and select the 'Postman project' folder from your local environment. With this action both .json files (the collection and the environment) will be imported.
 
 ### Running all tests via 'Runner'
 * Click on the 'Runner' button in the header of the app. The 'Collection Runner' will now be opened in a new window.
