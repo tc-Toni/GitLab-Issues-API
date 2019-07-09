@@ -1,9 +1,9 @@
 # GitLab Issues API
-This project is created as an automated test of the GitLab Issue API's. The project exist out of 1 main folder:
+This project is created as an automated test of the GitLab Issue APIs. The project exist out of 1 main folder:
 
 * GitLab Issues API
 
-And to sub-folders (collections) containing the requests:
+And 2 sub-folders (collections) containing the requests:
 
 * CRUD operations
 * Edge cases
@@ -19,17 +19,17 @@ For more info go to https://docs.gitlab.com/ee/api/issues.html
   - Group: Big Bank
   - Project: Banking App
 
-It is a public project so by searching on the name you can open the project board and see the issues that are already added to the board.
+It is a public GitLab project so by searching on the project name you can open the project board and see the issues that are already added to the board.
 
 ## Important notes
 
-* Authorization is done via an OAUTH2 acces token. This token is added to the authorization tab in the 'GitLab Issues API' folder. All underlying folders and requests inherit the authorization from this parent.
+* Authorization is done via the OAuth 2.0 acces token. This token is added to the authorization tab in the 'GitLab Issues API' folder. All underlying folders and requests inherit the authorization from this parent.
 
-* All request make use of parameters. Parameters are defined as environment variables, so that they are only available within the GitLab environment.
+* All request make use of parameters. These parameters are defined as environment variables, so that they are only available within the GitLab environment.
 
-* All folders and requests are accompanied with a description with more info about the executed tests.
+* All folders and requests are provided with a description with more info about the executed tests.
 
-* Every request contains 1 or more tests which are shown in the 'Test' tab of the request. All test are accompanied with comments to clarify what is executed with each line of code.
+* Every request contains 1 or more tests which are shown in the 'Test' tab of the request. All test are provided with comments to clarify what is executed with each line of code.
 
 ## Expected test results
 The collection exists out of 33 tests of which:
@@ -44,8 +44,7 @@ The collection exists out of 33 tests of which:
 <img src="Images/Collection%20runner.PNG" >
 
 ## Getting started
-The project was created in Postman and exported as a .json file. Download the project to your local environment. 
-For the execution of the tests no additional plugins or libraries are needed.
+The project was created in Postman and exported as a .json file. Download the file "GitLab Issues API.postman_collection_final.json" to your local environment. For the execution of the tests no additional plugins or libraries are needed.
 
 ## Prerequisites
 The following is needed to run the tests via Postman App:
