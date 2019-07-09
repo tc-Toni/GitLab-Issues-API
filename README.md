@@ -48,7 +48,7 @@ The collection exists out of 33 tests of which:
   - GitLab Issues API.postman_collection_final.json
   - GitLab.postman_environment_final.json
 
-You can download this repository by clicking on the green 'Clone or downlaod' button on top of this page and choose the option 'Download ZIP'. A file named GitLab-Issues-API-master.zip will be downloaded. Unpack the zip file to a desired location. Now the project folder is available to be imported in Postman (see 'Configuration of the Postman app' for how to do this).
+You can download this repository by clicking on the green 'Clone or download' button on top of this page and choose the option 'Download ZIP'. A file named GitLab-Issues-API-master.zip will be downloaded. Unpack the zip file to a desired location. Now the project folder is available to be imported in Postman (see 'Configuration of the Postman app' for how to do this).
 
 For the execution of the tests no additional plugins or libraries are needed.
 
