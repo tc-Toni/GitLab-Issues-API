@@ -12,6 +12,11 @@ All the requests in these collections make use of the end points that are availa
 
 For more info go to https://docs.gitlab.com/ee/api/issues.html
 
+## GitLab Group and Project
+* To be able to make request on issues the issues must be part of a project the user is authorized to. Therefore the following is created in GitLab:
+  - Group: Big Bank
+  - Project: Banking App
+
 ## Important notes
 
 * Authorization is done via an OAUTH2 acces token. This token is added to the authorization tab in the 'GitLab Issues API' folder. All underlying folders and requests inherit the authorization from this parent.
