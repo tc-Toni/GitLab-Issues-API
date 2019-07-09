@@ -19,7 +19,7 @@ For more info go to https://docs.gitlab.com/ee/api/issues.html
   - Group: Big Bank
   - Project: Banking App
 
-It is a public GitLab project. To view the issues on the project board first search on the group 'Big Bank' and then select the project 'Banking App'. Here you can select 'Issues' follewed by 'Board'.
+It is a public GitLab project. To view the issues on the project board first search on the group 'Big Bank' and then select the project 'Banking App'. Here you can select 'Issues' followed by 'Board'.
 
 ## Important notes
 
