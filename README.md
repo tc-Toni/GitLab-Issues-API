@@ -86,4 +86,4 @@ You can also run a test manually bij openening the request in the collection and
 * Follow the instructions in this tutorial to install node.js and Newman: https://www.youtube.com/watch?v=f2yMmOGZU7M
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License.
