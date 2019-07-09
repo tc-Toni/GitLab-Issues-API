@@ -13,7 +13,7 @@ All the requests in these collections make use of the end points that are availa
 For more info go to https://docs.gitlab.com/ee/api/issues.html
 
 ## GitLab Group and Project
-* To be able to make request on issues the issues must be part of a project. Therefore the following is created in GitLab:
+* To be able to make request on issues in GitLab the issues must be part of a project. Therefore the following is created in GitLab:
   - Group: Big Bank
   - Project: Banking App
 
@@ -28,6 +28,16 @@ It is a public project so by searching on the name you can open the project boar
 * All folders and requests are accompanied with a description with more info about the executed tests.
 
 * Every request contains 1 or more tests which are shown in the 'Test' tab of the request. All test are accompanied with comments to clarify what is executed with each line of code.
+
+## Expected test results
+The collection exists out of 33 tests of which:
+* 32 pass
+* 1 fail
+  - Failed test case: Set invalid due date for issue. 
+  - Test case will fail due to a BUG. An invalid input (due_date=2019-35-35) is requested. 
+    - Expected response: 400 Bad Request.
+    - Actual response: 200 OK. 
+    - When we check the value of due_date in the response it is 'null'
 
 ## Getting started
 The project was created in Postman and exported as a .json file. Download the project to your local environment. 
@@ -66,10 +76,6 @@ You can also run a test manually bij openening the request in the collection and
 ## Command Line
 ### Installing Node.js and Newman
 * Follow the instructions in this tutorial to install node.js and Newman: https://www.youtube.com/watch?v=f2yMmOGZU7M
-
-### Running tests via command line
-
-todo
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
